@@ -5,8 +5,6 @@ import static io.restassured.RestAssured.given;
 import gmail.anastasiacoder.config.MobileConfig;
 import org.aeonbits.owner.ConfigFactory;
 
-import java.net.URL;
-
 public class Browserstack {
 
     public static String videoUrl(String sessionId) {
