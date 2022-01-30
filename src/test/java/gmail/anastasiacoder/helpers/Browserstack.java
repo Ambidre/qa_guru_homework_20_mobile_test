@@ -9,13 +9,12 @@ import java.net.URL;
 
 public class Browserstack {
 
-    private static final MobileConfig BROWSERSTACK_CONFIG = ConfigFactory.create(MobileConfig.class, System.getProperties());
-
-    private static final String user = BROWSERSTACK_CONFIG.user();
-    private static final String key = BROWSERSTACK_CONFIG.key();
-
-
     public static String videoUrl(String sessionId) {
+
+        MobileConfig mobileConfig = ConfigFactory.create(MobileConfig.class);
+
+        String user = mobileConfig.user();
+        String key = mobileConfig.key();
 
         return given()
                 .auth().basic(user, key)
