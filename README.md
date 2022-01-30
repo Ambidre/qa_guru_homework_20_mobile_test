@@ -22,33 +22,36 @@
 <img width="6%" title="BrowserStack" src="images/logo/Browserstack.svg">
 </p>
 
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Для запусков автотестов используется [Jenkins](https://jenkins.autotests.cloud/job/09-Ambidre-lesson20/)
 
-### Для запусков автотестов используется Jenkins.
+![Jenkins](images/screens/jenkins.png)
 
-##### Примеры готовых сборок можно посмотреть [по ссылке](https://jenkins.autotests.cloud/job/09-Ambidre-lesson20/)
 
-### Анализ результатов запусков в Jenkins через Allure Reports
+## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Анализ результатов запусков в Jenkins через Allure Reports
+
+### Главная страница Allure-отчета
 
 ![Jenkins_Allure_Reports](images/screens/allure_dashbord.png)
 
+### Группировка тестов по проверяемому функционалу
+
 ![Jenkins_Allure_Reports1](images/screens/allure_detailes.png)
 
-### Для отображения результатов сборок также используется Allure TestOps.
+## <img width="4%" title="Allure TestOps" src="images/logo/Allure_TestOps.svg"> Интеграция тестов c тест-менеджмент системой [Allure TestOps](https://allure.autotests.cloud/project/939/dashboards)
 
-##### Примеры запусков и их результаты можно посмотреть [по ссылке](https://allure.autotests.cloud/project/939/dashboards)
-
-### Пример списка тестов и их прохождения в Allure TestOps
-
-![Allure TestOps](images/screens/testops_detailes1.png)
-
-### Результаты запусков Launches в Allure TestOps
-
-![Allure_Launches](images/screens/testops_detailes.png)
-
-### Основной Dashboards
+### Основной дашборд
 
 ![Allure Dashboards](images/screens/testops_dashbord.png)
 
-### Пример запуска теста в BrowserStack
+### Результаты запуска тестов
+
+![Allure_Launches](images/screens/testops_detailes.png)
+
+### Сгруппированные тест-кейсы по проверяемому функционалу
+
+![Allure TestOps](images/screens/testops_detailes1.png)
+
+
+## <img width="4%" title="BrowserStack" src="images/logo/Browserstack.svg"> Пример запуска теста в [BrowserStack](https://www.browserstack.com/)
 
 ![video](images/gif/wikipedia_video.gif)
